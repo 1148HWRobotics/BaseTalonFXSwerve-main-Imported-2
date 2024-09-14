@@ -1,0 +1,49 @@
+{
+  "version": 1.0,
+  "startingPose": {
+    "position": {
+      "x": 0.7041386162544403,
+      "y": 6.700750495518085
+    },
+    "rotation": 64.88516511385542
+  },
+  "command": {
+    "type": "sequential",
+    "data": {
+      "commands": [
+        {
+          "type": "named",
+          "data": {
+            "name": "spinShooter"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Left Far Note 1"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "spinShooter"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Left Far Note 2"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "spinShooter"
+          }
+        }
+      ]
+    }
+  },
+  "folder": null,
+  "choreoAuto": false
+}

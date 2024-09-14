@@ -1,0 +1,92 @@
+{
+  "version": 1.0,
+  "waypoints": [
+    {
+      "anchor": {
+        "x": 1.48,
+        "y": 5.578111669043852
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 2.127107296037954,
+        "y": 5.426087661292132
+      },
+      "isLocked": false,
+      "linkedName": null
+    },
+    {
+      "anchor": {
+        "x": 2.9143338058755885,
+        "y": 5.74182983123801
+      },
+      "prevControl": {
+        "x": 2.9367584722926727,
+        "y": 5.532532944674228
+      },
+      "nextControl": {
+        "x": 2.8792513425482693,
+        "y": 6.069266155633095
+      },
+      "isLocked": false,
+      "linkedName": null
+    },
+    {
+      "anchor": {
+        "x": 1.42,
+        "y": 5.578111669043852
+      },
+      "prevControl": {
+        "x": 1.4784707722121997,
+        "y": 5.589805823493059
+      },
+      "nextControl": null,
+      "isLocked": false,
+      "linkedName": null
+    }
+  ],
+  "rotationTargets": [
+    {
+      "waypointRelativePos": 1,
+      "rotationDegrees": 0,
+      "rotateFast": false
+    }
+  ],
+  "constraintZones": [],
+  "eventMarkers": [
+    {
+      "name": "New Event Marker",
+      "waypointRelativePos": 0.15,
+      "command": {
+        "type": "parallel",
+        "data": {
+          "commands": [
+            {
+              "type": "named",
+              "data": {
+                "name": "intake"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "globalConstraints": {
+    "maxVelocity": 5.0,
+    "maxAcceleration": 5.0,
+    "maxAngularVelocity": 640.0,
+    "maxAngularAcceleration": 720.0
+  },
+  "goalEndState": {
+    "velocity": 0,
+    "rotation": 1.5074357587749243,
+    "rotateFast": false
+  },
+  "reversed": false,
+  "folder": "5 Note Auton Blue",
+  "previewStartingState": {
+    "rotation": 1.5481576989521104,
+    "velocity": 0
+  },
+  "useDefaultConstraints": false
+}

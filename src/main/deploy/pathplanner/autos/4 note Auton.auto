@@ -1,0 +1,67 @@
+{
+  "version": 1.0,
+  "startingPose": {
+    "position": {
+      "x": 1.318081724482538,
+      "y": 5.578111669043852
+    },
+    "rotation": 1.0835026042490234
+  },
+  "command": {
+    "type": "sequential",
+    "data": {
+      "commands": [
+        {
+          "type": "wait",
+          "data": {
+            "waitTime": 1.0
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "spinShooter"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "4 note Auton 1 Blue"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "spinShooter"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "4 note Auton 2 Blue"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "spinShooter"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "4 note Auton 3 Blue"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "spinShooter"
+          }
+        }
+      ]
+    }
+  },
+  "folder": null,
+  "choreoAuto": false
+}
